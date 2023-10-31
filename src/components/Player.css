@@ -1,0 +1,44 @@
+.close {
+  margin-top: 120px;
+  margin-right: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274c";
+    font-size: 50px;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+  }
+}
+
+.blue-bg {
+  background: #00558a;
+}
+
+
+.closie {
+	border: 10px solid #f84342;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	z-index: 86;
+}
+
+.cirBack{
+   margin-top: 120px;
+   margin-left: 50px;
+   height: 100px;
+   width: 100px;
+   padding-top: 6px;
+   display: flex;
+   justify-content: center;
+}
+ 
